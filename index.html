@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wharf Industries Printing, Inc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        TOPNAV
+        HEADER
+        MAIN
+            CARDS
+            DESC
+            CONTACT-US FORM
+        FOOTER
+            AWARDS
+        BOTTOMNAV
+     -->
+    <nav class="topnav" id="topnav">
+        <a href="#"><img src="images/logo.svg" alt="logo" class="logo logotop"></a>
+        <nav class="sitelinks" id="sitelinks">
+            <a href="#servicecards" class="toplink">SERVICES</a>
+            <a href="#contactus" class="toplink">CONTACT</a>
+        </nav>
+    </nav>
+    <!-- Banner -->
+    <header>
+        <h2 class="headeritem">Printing Done Right</h2>
+        <h4>Wharf Industries Printing, Inc</h4>
+        <p class="headeritem">Your trusted advisor for print and marketing solutions</p>
+        <p class="headeritem"><img src="images/stars.svg" alt="5 stars" class="stars"> ---- 5 Stars on Google</p>
+        <div class="headerbuttons headeritem" id="headerbuttons">
+            <a href="#contactus"><button class="headerbutton" id="quotebutton">Get a Quote</button></a>
+            <a href="#contactus"><button class="headerbutton" id="contactarepbutton">Contact a Representative</button></a>
+        </div>
+    </header>
+    <main>
+        <!-- CARDS -->
+        <section class="servicecards" id="servicecards">
+            <div class="card printcard" id="printcard">
+                <img src="images/print.svg" alt="printer" class="cardimg">
+                <p class="cardtitle">Print</p>
+            </div>
+            <div class="card designcard" id="designcard">
+                <img src="images/design.svg" alt="create" class="cardimg">
+                <p class="cardtitle">Design</p>
+            </div>
+            <div class="card mailcard" id="mailcard">
+                <img src="images/mail.svg" alt="envelope" class="cardimg">
+                <p class="cardtitle">Mail</p>
+            </div>
+        </section>
+        <!-- DESCRIPTIONS -->
+        <section class="itemdescriptions" id="itemdescriptions">
+            <div class="itemdesc flyers" id="flyers">
+                <h3>Flyers</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem voluptas veniam ducimus. Tempora obcaecati, provident blanditiis ex est et omnis natus numquam quasi ab ipsam eos debitis! Cupiditate, odio.</p>
+            </div>
+            <div class="itemdesc businesscards" id="businesscards">
+                <h3>Business Cards</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quasi corporis impedit minus omnis molestias, ut, nostrum sapiente expedita beatae harum autem sit nemo! Corrupti maiores delectus aut sed ex!</p>
+            </div>
+            <div class="itemdesc postcards" id="postcards">
+                <h3>Postcards</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repellendus, molestiae reprehenderit blanditiis dolores culpa mollitia natus assumenda. Vitae expedita, debitis officia reiciendis unde recusandae ab. Ipsa, expedita. Dolore, aut?</p>
+            </div>
+        </section>
+        <!-- CONTACT FORM -->
+        <section class="contactus" id="contactus">
+                <form action="post" class="contactoform">
+                    <h3>Contact Us</h3>
+                    <label for="contactwhy" class="contactwhylabel">How can we help you?</label><br>
+                    <select id="contactwhy" name="contactwhy">
+                        <option value="quote" class="contactwhyoption">Reason: I'd like an estimate</option>
+                        <option value="question" class="contactwhycoption">Reason: I have a question</option>
+                    </select><br>
+                    <input type="text" name="first" id="firstname" placeholder="First Name"><br>
+                    <input type="text" name="last" id="lastname" placeholder="Last Name"><br>
+                    <input type="text" name="company" id="company" placeholder="Company"><br>
+                    <input type="text" name="phone" id="phone" placeholder="Phone Number"><br>
+                    <input type="email" name="email" id="emailinput" placeholder="hello@example.com"><br>
+                    <textarea name="msg" id="msg" cols="30" rows="10">
+                    </textarea><br>
+
+                    <input type="button" value="Submit" id="submitbutton">
+                </form>
+        </section>
+    </main>
+    <!-- FOOTER, AWARDS -->
+    <footer>
+        <section class="awards" id="awards">
+                <h1>Best of Business Award Winner!</h1>
+                <img src="images/bobawards.jpg" alt="awardbadge" class="bobawards">
+        </section>
+    </footer>
+    <!-- BOTTOM NAVIGATION -->
+    <nav class="bottomnav" id="bottomnav">
+
+        <a href="#"><img src="images/logo.svg" alt="logo"  class="logo logobottom"></a>
+        <div class="address" id="address">
+            <h3>FIND US</h3>
+            <p>
+                Wharf Industries Printing, Inc.<br>
+                3 Lexington Road, Unit 2<br>
+                P.O. Box 367<br>
+                Windham, NH 03087<br><br>
+
+                (888) 702-9364  toll free<br>
+                (603) 421-2566<br>
+                (603) 421-1807  fax<br>
+            </p>
+        </div>
+        <nav class="socialmedia" id="socialmedia">
+            <h3>FOLLOW US :)</h3>
+            <a href="http://www.facebook.com/" class="bottomlink">Facebook</a>
+            <a href="http://www.twitter.com/" class="bottomlink">Twitter</a>
+            <a href="http://www.instagram.com/" class="bottomlink">Instagram</a>
+        </nav>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
